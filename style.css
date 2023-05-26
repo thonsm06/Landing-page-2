@@ -10,8 +10,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 10px 300px;
+    align-items: center;
+
 }
 .section.one {
     background-color: #1F2937;
@@ -19,16 +19,11 @@ body {
 
 }
 .top {
+    width: 1024px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
     margin: 0;
-}
-.bottom {
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 h1 {
     margin: 0;
@@ -43,4 +38,59 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+.bottom {
+    width: 1024px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+    gap: 32px;
+}
+.bottom .left .button-one {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 24px;
+
+}
+.bottom img {
+    width: 512px;
+    height: auto;
+}
+
+
+.containers {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+}
+.container.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img {
+    width: 128px;
+    border: 3px solid black;
+    border-radius: 10%;
+    border-color: #3882F6;
+    flex: 1 1 auto;
 }
