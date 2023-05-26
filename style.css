@@ -88,9 +88,33 @@ a {
     align-items: center;
 }
 .box img {
-    width: 128px;
+    width: 156px;
     border: 3px solid black;
     border-radius: 10%;
     border-color: #3882F6;
     flex: 1 1 auto;
+}
+
+.section.three {
+    background-color: #E5E7EB;
+}
+.container-three {
+    width: 1024px;
+    padding: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text {
+    font-size: 28px;
+    width: 650px;
+    margin: 0;
+    padding: 0;
+}
+.quote-name {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: end;
+    margin: 24px 256px 0px 0px;
+    padding: 0;
 }
